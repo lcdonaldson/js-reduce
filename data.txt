@@ -1,0 +1,6 @@
+mike iconelli  spinning_rod  bass  5
+mike iconelli  cranking_rod  bass  3
+mike iconelli  casting_rod  bass  5
+skeete reese  spinning_rod  bass  4
+skeete reese  cranking_rod  bass  4
+skeete reese  casting_rod  bass  4
