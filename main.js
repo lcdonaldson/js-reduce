@@ -12,6 +12,6 @@ var result = fs.readFileSync('data.txt', 'utf8')
             quantity: line[3]
         })
         return customers
-    }, {})
+    }, {});
 
-console.log('result', JSON.stringify(result, null, 2))
+console.log('result', JSON.stringify(result, null, 2));
