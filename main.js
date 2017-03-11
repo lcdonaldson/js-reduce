@@ -1,3 +1,4 @@
+// example 1
 var fs = require('fs')
 
 var result = fs.readFileSync('data.txt', 'utf8')
@@ -15,3 +16,11 @@ var result = fs.readFileSync('data.txt', 'utf8')
     }, {});
 
 console.log('result', JSON.stringify(result, null, 2));
+
+
+// example 2
+var fish = ["catfish","bass","crappie"];
+var total = fish.reduce(function(sum, word) {
+  return sum + word.length;
+}, 0);
+console.log(total);
